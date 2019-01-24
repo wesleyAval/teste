@@ -26,3 +26,8 @@ int main(){
 	cout << "blabla";
 	cin >> num;
 }
+
+//git checkout -- arquivo.ext -> desfaz as alterações realizadas desde o último commit
+//git reset arquivo.ext -> tira o arquivo do stage
+//git reset HEAD~1 -> desfaz o último commit, mas não altera nada nos arquivos
+//git reset --hard HEAD~1 -> desfaz o último commit, alterando os arquivos para o que estavam antes
