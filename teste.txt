@@ -27,8 +27,8 @@ int main(){
 	cin >> num;
 }
 
-//git checkout -- arquivo.ext -> desfaz as alterações realizadas desde o último commit
+//git checkout -- arquivo.ext -> desfaz as alterações realizadas desde o último commit(antes do add)
 //git reset arquivo.ext -> tira o arquivo do stage
-//git reset HEAD~1 -> desfaz o último commit, mas não altera nada nos arquivos
+//git reset cod -> desfaz os commits até o commit correspondente até ao código, mas não altera os arquivos
 //git reset --hard HEAD~1 -> desfaz o último commit, alterando os arquivos para o que estavam antes
 //git revert cod -> reverte as alterações realizadas no commit correspondente ao código
