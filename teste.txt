@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int num 3(){
+int num4(){
+	return 4;
+}
+
+int num3(){
 	return 3;
 }
 
