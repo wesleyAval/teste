@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+int num(){
+	return 10;
+}
+
 int main(){
 	int num;
 	num =0;
