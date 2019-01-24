@@ -1,5 +1,5 @@
-git stash -> guarda alterações ainda não comitadas
 git stash list -> mostra stashs s
+git stash -> guarda alterações ainda não comitadas s
 git stash pop -> pega o último stash feito
 git stash apply@{n} -> pega o stash da posição n
 b
